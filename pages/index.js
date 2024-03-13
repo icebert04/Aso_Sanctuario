@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Challenge from './components/challenges';
 import FAQ from './components/FAQ';
 import HowItWorks from './components/info';
+import MeetTheTeam from './components/team';
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
       <HowItWorks/>
 
       <FAQ/>  
+
+      <MeetTheTeam/>
 
       <Footer />
     </div>

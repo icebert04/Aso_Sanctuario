@@ -4,7 +4,7 @@ import React from 'react';
 
 const FAQ = () => {
   return (
-    <div className="p-8">
+    <div className="p-8 FAQ">
       <h1 className="text-3xl font-bold mb-4">Frequently Asked Questions</h1>
       <div className="mb-8">
         <h2 className="text-xl font-bold mb-2 underline">Question 1: What is Lorem Ipsum?</h2>

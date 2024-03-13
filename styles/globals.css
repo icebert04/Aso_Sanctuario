@@ -91,7 +91,6 @@
 
 /* header */
 .header-title {
-  background-color: rgba(60, 188, 217, 0.236) ;/* See-through white */
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -136,6 +135,7 @@
 .HIWheading {
   font-size: 1.5rem;
   font-weight: bold;
+  padding: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -168,6 +168,19 @@
 
 /* FAQ */
 
+.FAQ {
+  padding: 8px;
+  margin: 0 auto;
+  max-width: 50%; /* Half width by default */
+}
+
+@media (max-width: 768px) {
+  .FAQ {
+    max-width: 100%; /* Full width on screens smaller than 640px */
+  }
+}
+
+
 .underline {
   position: relative;
 }
@@ -182,6 +195,40 @@
   background-color: var(--primary-color); /* Use the primary color for the underline */
 }
 
+/* team */
+
+.team-container {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+.team-heading {
+  color: #ffffff; /* Text color on primary background */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.teamMembers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teamMember {
+  flex: 0 0 calc(33.33% - 0.5rem); /* Three items across with some spacing */
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .teamMember {
+    flex-basis: calc(50% - 0.5rem); /* Two items across on smaller screens */
+  }
+}
 
 html,
 body {

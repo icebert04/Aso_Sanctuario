@@ -6,8 +6,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Challenge from './components/challenges';
 import FAQ from './components/FAQ';
-import HowItWorks from './components/info';
+
 import MeetTheTeam from './components/team';
+import Solution from './components/solutions';
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
 
       <Challenge/>
     
-      <HowItWorks/>
+      <Solution/>
 
       <FAQ/>  
 

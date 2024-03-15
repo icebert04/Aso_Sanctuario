@@ -3,8 +3,8 @@ import React from 'react';
 
 const Challenge = () => {
     return (
-      <section>
-        <h1 className='text-center text-4xl text-slate-800 p-4'>Challenges in the dog industry</h1>
+      <section className='my-10'>
+        <h1 className='text-center text-4xl text-slate-800 p-4'>The Problem</h1>
         <div className="container-issue">
             <div className="left-issue rounded">
             <ul><h2 className='text-2xl py-4 font-bold'>Unethical breeding practices:</h2>

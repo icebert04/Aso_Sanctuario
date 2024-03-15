@@ -29,8 +29,8 @@
 }
 
 .nav-logo{
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 7.5rem;
+  height: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,9 @@
   .links-container {
     flex-direction: column; /* Change flex direction to column on smaller screens */
     align-items: flex-start; /* Align items to the start vertically */
+    margin: auto;
   }
+  .nav-logo {margin:auto;}
 
   .links {
     margin: 0.5rem 0; /* Adjust margin for smaller screens */
@@ -95,10 +97,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
 
   font-size: 2rem;
 
+}
+.header {
+  height: 768px; 
+}
+.header-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    height: 50%; 
+  }
 }
 
 /* challenge */
@@ -126,6 +144,52 @@
 .right-issue li {
   margin-bottom: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .container-issue {
+    display: block;
+  }
+}
+
+/* Solution */
+
+.container-solution {
+  display: flex;
+  justify-content: center;
+}
+
+
+.grid-item-solution li {
+  list-style-type: disc;
+}
+.grid-item-solution div {
+  margin: 2rem;
+}
+.grid-item-solution {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-item-solution > :last-child {
+  grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+  .container-solution {
+    flex-direction: column; /* Stack items in a column */
+  }
+  .grid-item-solution {
+    display:block;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item-solution div {
+    margin: 1.5rem;
+  }
+  .left-solution,
+  .right-solution {
+    width: 100%; /* Full width for smaller screens */
+  }
+}
+
 
 /* HowItWorks.module.css */
 .HIWcontainer {
@@ -181,11 +245,11 @@
 }
 
 
-.underline {
+.underline-turq {
   position: relative;
 }
 
-.underline::after {
+.underline-turq::after {
   content: '';
   position: absolute;
   left: 0;
@@ -197,14 +261,23 @@
 
 /* team */
 
+.team-img {
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .team-container {
   background-color: var(--primary-color);
-  padding: 1rem;
+  padding: 5rem 1rem;
 }
 
 .team-heading {
   color: #ffffff; /* Text color on primary background */
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 1rem;
@@ -214,6 +287,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.member-info {
+  margin: 2rem 0rem;
+}
+.member-social {
+  margin: 0.5rem 0rem;
 }
 
 .teamMember {
@@ -228,6 +308,10 @@
   .teamMember {
     flex-basis: calc(50% - 0.5rem); /* Two items across on smaller screens */
   }
+  .member-info {
+    margin: 1rem 0rem;
+  }
+  
 }
 
 html,

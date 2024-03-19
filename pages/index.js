@@ -9,6 +9,7 @@ import FAQ from './components/FAQ';
 
 import MeetTheTeam from './components/team';
 import Solution from './components/solutions';
+import Population from './components/population';
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
       </main>
 
       <Challenge/>
-    
+      <Population/>
       <Solution/>
 
       <FAQ/>  

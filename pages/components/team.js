@@ -18,10 +18,10 @@ const MeetTheTeam = () => {
               <b className='text-xl'>Francis</b><br/>
               <span className='member-title'>Marketing</span>
               <div className="flex justify-center items-center space-x-4 member-social">
-                  <a href="https://www.facebook.com/francis.isberto" passhref target="_blank" rel="noreferrer">
+                  <a href="https://www.facebook.com/francis.isberto" passhref="true" target="_blank" rel="noreferrer">
                       <FaFacebook size="15"/> 
                   </a>
-                  <a href="#" passhref>
+                  <a href="#" passhref="true">
                       <FaInstagram size="15"/> 
                   </a>
               </div>
@@ -35,10 +35,10 @@ const MeetTheTeam = () => {
               <b className='text-xl'>Rachelle</b><br/>
               <span className='member-title'>Finance</span>
               <div className="flex justify-center items-center space-x-4 member-social">
-                  <a href="https://www.facebook.com/francis.isberto" passhref target="_blank" rel="noreferrer">
+                  <a href="https://www.facebook.com/francis.isberto" passhref="true" target="_blank" rel="noreferrer">
                       <FaFacebook size="15"/> 
                   </a>
-                  <a href="#" passhref>
+                  <a href="#" passhref="true">
                       <FaInstagram size="15"/> 
                   </a>
               </div>
@@ -52,10 +52,10 @@ const MeetTheTeam = () => {
               <b className='text-xl'>Luigi</b><br/>
               <span className='member-title'>Tech</span>
               <div className="flex justify-center items-center space-x-4 member-social">
-                  <a href="https://www.facebook.com/francis.isberto" passhref target="_blank" rel="noreferrer">
+                  <a href="https://www.facebook.com/francis.isberto" passhref="true" target="_blank" rel="noreferrer">
                       <FaFacebook size="15"/> 
                   </a>
-                  <a href="#" passhref>
+                  <a href="#" passhref="true">
                       <FaInstagram size="15"/> 
                   </a>
               </div>

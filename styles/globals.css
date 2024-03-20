@@ -156,8 +156,75 @@
 }
 
 /* Population */
-.container-population {margin: auto; width: 95%;}
+/* .container-population {width: 95%;} */
 .container-population li{list-style: disc;}
+
+.pop-header{
+  background-image: url('/speechbubble.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 90%;
+  padding: 8rem;
+}
+.pop-text ul {
+  margin: auto;
+}
+.pop-text1{
+  background-image: url('/textbubble.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vw;
+  width: 50vw;
+  padding-top: 3rem;
+}
+/* .pop-text2{
+  background-image: url('/textbubble.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vw;
+  width: 50vw;
+}
+.pop-text2 ul {
+  padding-top: 5rem;
+} */
+.pop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .pop-text1, .pop-text2{width: 80vh; margin: auto;} */
+
+@media (max-width: 768px) {
+  .pop-text1{
+    height: 80vw;
+    width: 85vw;
+    padding-top: 4.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .pop-header{
+    height: 90%;
+    padding: 6rem;
+  }
+  .pop-text1{
+    background-image: none;
+    height: 100%;
+    width: 100%;
+    padding-top: 2rem;
+  }
+  .pop-text ul {
+    margin: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  .pop-header{
+    height: 90%;
+    padding: 4rem;
+  }
+}
 
 /* Solution */
 

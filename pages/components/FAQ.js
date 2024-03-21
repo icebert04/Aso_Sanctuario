@@ -3,7 +3,7 @@ import React from 'react';
 
 const FAQ = () => {
   return (
-    <section className='my-20'>
+    <section className='my-20 FAQ-bg'>
       <div className="p-8 FAQ">
         <h1 className="text-3xl font-bold mb-10">Frequently Asked Questions</h1>
         <div className='mb-10'>
@@ -32,7 +32,9 @@ const FAQ = () => {
         </div>
         <div className='mb-10'>
           <h2 className="text-xl font-bold mb-2 underline-turq">Q: Are there organizations working on this issue?</h2>
-          <p>A: Yes! There are many dedicated animal welfare organizations in the Philippines, such as the Philippine Animal Welfare Society (PAWS). They work tirelessly to rescue strays, provide medical care, and find them forever homes.</p>
+          <p>A: Yes! There are many dedicated animal welfare organizations in the Philippines, such as the Philippine Animal Welfare Society (PAWS). They work tirelessly to rescue strays, provide medical care, and find them forever homes.<br/>
+          And of course there&apos;s us, Aso Sanctuario.<br/>
+          We play our part to save dogs and inspire lives.</p>
         </div>
       </div>
     </section>

@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  transition: 0.5s;
+}
 
 :root {
   --primary-color: #37DACA;
@@ -410,6 +413,87 @@
   }
   
 }
+
+/* PAGES */
+
+/* Members */
+/* .Member-container {
+  margin: auto;
+} 2.5rem */
+.Member-header {
+  text-align: left;
+  margin: 3rem 6rem;
+  min-height: 50vh;
+}
+.Member-header p{margin-top: 5rem; font-size: 1.5rem;}
+/* .Member-head-text {color: var(--primary-color); text-shadow: 2px 3px #000;} */
+.Member-head-text span{background: var(--primary-color);}
+.MemberT{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.MemberT-child{
+box-shadow: 10px 10px;
+margin: 0px 1.5rem;
+}.MemberT li {background-color: var(--primary-color); font-weight: 500; border-radius: 3rem;
+}.Member-list-item-head{
+  margin: 1rem 0rem; 
+}.Member-list-item{
+  list-style-type: disc; 
+  margin: 1rem 2rem; 
+}
+.J-image{
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MemberJ-container{
+ margin: 4rem auto; 
+}
+.MemberJ-grid{
+  text-align: center;
+  margin: auto 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.MemberJ-grid p{
+  padding: 2rem;
+}
+.grid-buttons{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}.grid-buttons-item{background-color: var(--primary-color); border-radius: 0.5rem; margin: 1rem; padding: 1rem;}
+.grid-buttons-item:hover{background-color: #2fedda;}
+
+@media (max-width: 768px) {
+  .Member-header {
+    text-align: left;
+    margin: 3rem 1rem;
+  }
+  .MemberT-container {
+    margin: 0rem 1rem;
+  }
+  .MemberT{
+    display: block;
+  }
+  .MemberT-child{
+    margin: 2rem auto;
+  }.Member-list-item-head{
+    margin: 1.5rem 0rem; 
+  }.Member-list-item{ 
+    margin: 0.5rem 1rem; 
+  }
+  .MemberJ-grid{
+    margin: auto 0rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
 
 html,
 body {

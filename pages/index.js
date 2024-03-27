@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Dog Site</title>
+        <title>Aso Sanctuario</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

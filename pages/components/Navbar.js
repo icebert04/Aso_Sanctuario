@@ -15,9 +15,9 @@ const Navbar = () => {
         </Link>
     </div>
         <div className='links-container'>
-        {/* <Link className='links' href="/about">
-            <b className="text-bold">About</b>
-        </Link> */}
+        <Link className='w-40 links' href="/involved">
+            <b className="text-bold">Get Involved</b>
+        </Link>
         <Link className='links' href='/'>
             <b className="text-bold">Contact</b>
         </Link>

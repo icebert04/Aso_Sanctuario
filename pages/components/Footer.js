@@ -16,7 +16,7 @@ const Footer = () => {
             <FaInstagram size="24" /> 
         </Link>
       </div>
-      <p className="mt-2"><b>&copy; 2024 Dog Site. All rights reserved.</b></p>
+      <p className="mt-2"><b>&copy; 2024 Aso Sanctuario. All rights reserved.</b></p>
     </footer>
   );
 };
